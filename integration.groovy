@@ -23,7 +23,7 @@ def deploymentDirectories = []
 def updateType = ""
 
 pipeline {
-agent {label 'pipeline-agent'}
+agent {label 'pipeline-agent-2'}
 stages {
     stage('Clone CFN repo') {
         steps {
